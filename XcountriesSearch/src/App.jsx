@@ -46,7 +46,7 @@ function handleSearch(event){
 {filteredData.map((item)=>(
   <div className='countryCard' key={item.common}>
 <img src={item.png} alt={item.common} />
-<h3> {item.common}</h3>
+<h2>{item.common}</h2>
 </div>
 ))}
    </main>
