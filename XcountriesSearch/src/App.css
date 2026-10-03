@@ -1,0 +1,23 @@
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 2rem;
+  margin-bottom: 5px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+flex-wrap: wrap;
+overflow: hidden;
+gap: 8px;
+
+
+}
+img{
+  height: 15rem;
+  width: 15rem;
+}
